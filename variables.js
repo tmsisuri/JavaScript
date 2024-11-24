@@ -7,9 +7,9 @@ let num = 4
 console.log(num)
 
 //when assign a string use quotes('') or ("")
-let username = "Sara"
-console.log(username)
-let username1 = 'Anne'
-console.log(username1)
+let userName = "Sara"
+console.log(userName)
+let userName1 = 'Anne'
+console.log(userName1)
 
-let useraccount = "Sara's account"
+let userAccount = "Sara's account"
