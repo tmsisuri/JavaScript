@@ -3,7 +3,6 @@
 
 let num1 = 5             //number
 let user = "Isuri"      //string
-let bool = "true"       //boolean
 
 //to find the data type
 console.log(typeof num1)
@@ -41,3 +40,40 @@ console.log(num7)
 //we can't perform operation between bigint and normal numbers
 //to that we shoud use type conversion(normal numbers to bigint or bigint to normal numbers)
 console.log(num7 + 2n)
+
+let num8 = 5
+console.log(num8/"asj") //output is NAN(Not A Number)
+console.log(typeof (num8/"asj")) //NAN is a number type
+
+let firstNAme = "Navin"
+let lastName = "Reddy"
+console.log(firstNAme + " " + lastName)
+
+//to print " in the string we can use \"  \" 
+let user1 = "navin Reddy \" Telusko\""
+console.log(user1)
+
+//go to the new line
+let user2 = "navin \n Reddy"
+console.log(user2)
+//add a tab
+let user3 = "navin \t Reddy"
+console.log(user3)
+//add a vertical tab
+let user4 = "navin \v Reddy"
+console.log(user4)
+//delete a character
+let user5 = "navin\bReddy"
+console.log(user5)
+
+let bool1 = 5>6
+console.log(bool1)
+console.log(typeof bool1)
+
+let name1 = null
+console.log(name1)
+console.log(typeof name1)
+
+let name2
+console.log(name2)
+console.log(typeof name2)
